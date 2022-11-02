@@ -1,0 +1,33 @@
+:root {
+    --basic-color: #C4A78B;
+    --accent-color: #C9C7E1;
+    --bg-color: #faf6e9;
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: monospace;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    color: var(--basic-color);
+    padding: 5px;
+}
+
+a:hover {
+    color: var(--accent-color);
+}
+
+img {
+    max-height: 500px;
+    max-width: auto;
+}
+
